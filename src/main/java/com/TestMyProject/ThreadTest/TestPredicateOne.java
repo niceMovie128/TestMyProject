@@ -13,9 +13,6 @@ public class TestPredicateOne {
         System.out.println(testPredicateOne.judgeConditionByPredicte(2, value -> value%2==0));
         System.out.println(testPredicateOne.judgeConditionByPredicte(2, value -> value>0));
 
-
-
-
     }
 
     public boolean judgeConditionByPredicte(int value, Predicate<Integer> predicate){
