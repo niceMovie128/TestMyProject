@@ -50,5 +50,8 @@ public class TestStringMethod {
             log.info(e.getMessage());
 
         }
+        for (int i = 0; i <100000000 ; i++) {
+            System.out.println("a"+i+"b"+i*i+"="+"字段是多少");
+        }
     }
 }
