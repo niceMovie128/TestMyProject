@@ -5,7 +5,7 @@ package com.TestMyProject.function;
  * @Package: com.TestMyProject.function
  * @ClassName: Test
  * @Author: mw
- * @Description: ok
+ * @Description: 测试类的注释和方法注释定义使用
  * @Date: 2021/2/23 16:57
  * @Version: 1.0
  */
