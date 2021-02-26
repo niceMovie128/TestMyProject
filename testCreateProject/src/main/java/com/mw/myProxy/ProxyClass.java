@@ -1,4 +1,4 @@
-package com.mw.dynamicProxy;
+package com.mw.myProxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -13,7 +13,7 @@ import java.lang.reflect.Method;
  * @Date: 2021/2/24 16:23
  * @Version: 1.0
  */
-public class ProxyClass implements InvocationHandler {
+public class ProxyClass implements MyInvocationHandler {
 
     Object target;
 

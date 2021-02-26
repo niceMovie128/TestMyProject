@@ -1,4 +1,4 @@
-package com.mw.dynamicProxy;
+package com.mw.myProxy;
 
 /**
  * @ProjectName: TestMyProject
