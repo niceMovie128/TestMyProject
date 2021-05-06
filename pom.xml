@@ -7,7 +7,10 @@
   <groupId>org.example</groupId>
   <artifactId>TestMyProject</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
+    <modules>
+        <module>testCreateProject</module>
+    </modules>
+    <packaging>pom</packaging>
 
   <name>TestMyProject Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
@@ -50,6 +53,38 @@
       <version>4.12</version>
       <scope>compile</scope>
     </dependency>
+
+<!--slf4j日志开始   -->
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.25</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.2.3</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.2.0</version>
+      <scope>test</scope>
+    </dependency>
+    <!--slf4j日志结束   -->
+
   </dependencies>
 
   <build>

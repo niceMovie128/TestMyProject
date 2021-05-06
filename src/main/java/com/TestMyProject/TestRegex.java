@@ -1,6 +1,8 @@
 package com.TestMyProject;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.YearMonth;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -28,21 +30,8 @@ public class TestRegex {
 //        System.out.println(fomatTime1.compareTo(fomatTime2));
         List<String> eleList = new ArrayList<>();
 
-        for(int i = 0;i <eleList.size()-1;i++ ){
+        DateTimeFormatter dateTimeFormatter1 = DateTimeFormatter.ofPattern("yyyy-MM");
+//        LocalDate date1 = LocalDate.parse(dateTimeFormatter1)
 
-            String dateTime = eleList.get(i);
-            String dateTime1 = eleList.get(i+1);
-
-
-            DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-            LocalDateTime fomatTime1 =LocalDateTime.parse(dateTime,dateTimeFormatter);
-            LocalDateTime fomatTime2 =LocalDateTime.parse(dateTime1,dateTimeFormatter);
-
-            if (fomatTime1.compareTo(fomatTime2) < 0){
-                flag = false;
-                System.out.println("前面时间比后面时间小");
-                break;
-            }
-        }
     }
 }
