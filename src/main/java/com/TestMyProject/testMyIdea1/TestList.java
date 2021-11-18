@@ -2,7 +2,6 @@ package com.TestMyProject.testMyIdea1;
 import lombok.extern.slf4j.Slf4j;
 
 import java.sql.Timestamp;
-import java.text.ParseException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Objects;
